@@ -25,6 +25,14 @@
 
 @implementation LLRadarView
 
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        [self buildingParams];
+    }
+    return self;
+}
+
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
