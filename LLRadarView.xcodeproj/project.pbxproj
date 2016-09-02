@@ -14,6 +14,7 @@
 		DD3A17EB1D76E51D00A2DB16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD3A17EA1D76E51D00A2DB16 /* Assets.xcassets */; };
 		DD3A17EE1D76E51D00A2DB16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD3A17EC1D76E51D00A2DB16 /* LaunchScreen.storyboard */; };
 		DD3A17F71D76E52800A2DB16 /* LLRadarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3A17F61D76E52800A2DB16 /* LLRadarView.m */; };
+		DD63C0F61D796AA900A94C0A /* LLPulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DD63C0F51D796AA900A94C0A /* LLPulseAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		DD3A17EF1D76E51D00A2DB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD3A17F51D76E52800A2DB16 /* LLRadarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLRadarView.h; sourceTree = "<group>"; };
 		DD3A17F61D76E52800A2DB16 /* LLRadarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLRadarView.m; sourceTree = "<group>"; };
+		DD63C0F41D796AA900A94C0A /* LLPulseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPulseAnimation.h; sourceTree = "<group>"; };
+		DD63C0F51D796AA900A94C0A /* LLPulseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLPulseAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 			children = (
 				DD3A17F51D76E52800A2DB16 /* LLRadarView.h */,
 				DD3A17F61D76E52800A2DB16 /* LLRadarView.m */,
+				DD63C0F41D796AA900A94C0A /* LLPulseAnimation.h */,
+				DD63C0F51D796AA900A94C0A /* LLPulseAnimation.m */,
 				DD3A17E11D76E51D00A2DB16 /* AppDelegate.h */,
 				DD3A17E21D76E51D00A2DB16 /* AppDelegate.m */,
 				DD3A17E41D76E51D00A2DB16 /* ViewController.h */,
@@ -157,6 +162,7 @@
 				DD3A17E61D76E51D00A2DB16 /* ViewController.m in Sources */,
 				DD3A17F71D76E52800A2DB16 /* LLRadarView.m in Sources */,
 				DD3A17E31D76E51D00A2DB16 /* AppDelegate.m in Sources */,
+				DD63C0F61D796AA900A94C0A /* LLPulseAnimation.m in Sources */,
 				DD3A17E01D76E51D00A2DB16 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +312,7 @@
 				DD3A17F41D76E51D00A2DB16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
